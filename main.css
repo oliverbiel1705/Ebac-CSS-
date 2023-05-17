@@ -1,0 +1,122 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link, a:visited
+    color: hsl(328, 30%, 65%);{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+#wrap{
+    width: 500px;
+    margin: auto 0 auto 0;
+    padding: 10px 20px;
+}
+#sports {
+    background-color: rgba(255, 0, 128, 0.1);
+}
+#economy {
+    background-color: rgba(195, 0, 255, 0.1);
+}
+
+#form{
+    background: rgb(255, 229, 82);
+}
+header nav ul{
+    list-style: none;
+    padding-left: 0;
+}
+header nav ul li{
+    display: inline-block;
+    margin-right: 10px;    
+}
+header nav ul li a{
+    
+    font-size: 18px;
+}
+
+#content{
+    float: left;
+    width: 100px;
+}
+
+footer{
+    margin-top: 25%;
+    background: #fff710;
+    clear: both;
+}
+label,input[type=submit], input[type=text], textarea{
+    display: block;
+}
+
+input[type="submit"]{
+    background: #333333;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 0;
+
+}
+input[type="submit"]:hover{
+    background: rgb(55, 15, 255);
+}
+.p {
+    color: #161cda;
+}
+.da {
+    color: #3cff00;
+    }
+.dat {
+    color: #8400ff;
+}
+.E {
+    color: #ffe600;
+}
+.T {
+    color: #f200ff;
+}
+.tt {
+    color: #00ff2a;
+}
+.n {
+    color: #6b1919;
+}
+
+.w {
+    background-color: #000000;
+    color: #fff;
+    padding:8px;
+}
+.o {
+    background-color: #000000;
+    color: #fff;
+    padding:8px;
+}
+
+#Entretenimento {
+    background-color: rgba(0, 213, 255, 0.1);
+}
+Tecnologia {
+    background-color: #00ff2a;
+}
+#Portal {
+    background-color: #000000;
+}
+.container {
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+header li {
+    display: inline;
+}
+header .container {
+    display: flex;
+    align-items: center;
+}
+header li a {
+    padding: 16px 0;
+    color: #3009f1;
+}
